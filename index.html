@@ -1,9 +1,126 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Jaclyn Barcal's Portfolio </title>
-    </head>
-    <body>
-        <!--blah-->
-    </body>
+
+<head>
+    <title> Jaclyn Barcal's Portfolio </title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div id="name">
+            <h1>Jaclyn Barcal</h1>
+        </div>
+        <nav id="links">
+            <a href="#about">About Me</a> |
+            <a href="#mywork">My Work</a> |
+            <a href="#contactInformation">Contact</a> |
+            <a href="#resume">Resume</a>
+        </nav>
+    </header>
+    <div>
+        <img id="profilePicture" src="./assets/circleme.png" alt="My Picture" />
+    </div>
+    <main>
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <hr>
+
+            <p>
+                My name is Jaclyn! I have 15 years of healthcare experience (in physical therapy).
+                I graduated with honors from Grand Canyon University in 2023 with a Bachelor's of Science in Psychology.
+                Shortly thereafter, I decided to shift gears into the exciting world of web development. I can't wait to
+                see how I can use my new skills to help you!
+            </p>
+        </section>
+
+        <section id="mywork">
+
+            <h2>My Work</h2>
+            <hr>
+
+            <p>Here are some projects that I made in my fullstack coding bootcamp!</p>
+
+            <a href="https://tony-pizza-2u.github.io/prework-study-guide/">
+                <img class="projectImage" src="assets/projects/preworkProject.png" alt="Prework Study Guide" title="Prework Study Guide" onmouseover="previewProject(this)" onmouseleave="resetProject(this)">
+            </a>
+
+            <a href="https://tony-pizza-2u.github.io/Homework-Number-One/">
+                <img class="projectImage" src="assets/projects/marketingProject.png" alt="Project 2" title="Project 2" onmouseover="previewProject(this)" onmouseleave="resetProject(this)">
+            </a>
+            
+            <a href="">
+                <img class="projectImage" src="assets/soon.png" alt="Project 3" title="Project 3" onmouseover="previewProject(this)" onmouseleave="resetProject(this)">
+            </a>     
+
+        </section>
+        <section id="contactInformation">
+
+            <h2>Contact Information</h2>
+            <hr>
+
+            <p>
+                <b>Email:</b> jaclynbarcal@gmail.com
+            </p>
+        </section>
+        <section id="resume">
+
+            <h2>Resume</h2>
+
+            <hr>
+
+            <h3>Education</h3>
+
+            <article>
+                <b>Grand Canyon University, Phoenix, AZ</b>
+                <div>
+                    Bachelor’s of Science in Psychology</br>
+                    2020-2022
+                </div>
+            </article>
+
+            <article>
+                <b>Oakton Community College, Des Plaines, IL</b>
+                <div>
+                    Associate of Applied Science<br>
+                    2008-2010
+                </div>
+            </article>
+
+            <h3>Experience</h3>
+
+            <article>
+                <b>Lead PTA / Austin Injury Medical</b>
+                <div>January 2018 – March 2023</div>
+                <div>
+                    <ul>
+                        <li>Outpatient setting treating patients of all ages</li>
+                        <li>Assisted in development of TBI treatment division</li>
+                        <li>Communicated closely with interdisciplinary team (in-house pain management MD, chiropractor,lawyer and care coordinator) in order to provide the best patient care and treatment plan</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article>
+                <b>PTA/ Texas Allied Therapy (Home Health)</b>
+                <div>December 2015- January 2020</div>
+                <div>
+                    <ul>
+                        <li>Independent contractor servicing an 85-mile radius</li>
+                        <li>Created/provided unique, engaging, and effective treatment sessions</li>
+                        <li>Provided extensive family/caregiver education on fall prevention, transfer techniques, home safety modifications, and training on home exercise program</li>
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="./assets/script.js"></script>
+</body>
+
 </html>
